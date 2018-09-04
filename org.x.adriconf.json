@@ -7,7 +7,7 @@
     "finish-args": [
          /*In future we need wayland also!*/
          "--socket=x11",
-         "--filesystem=host:rw"
+         "--filesystem=host:rw",
          "--share=ipc",
          "--device=dri",
          "--talk-name=org.freedesktop.secrets",

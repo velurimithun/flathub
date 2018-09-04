@@ -7,6 +7,7 @@
     "finish-args": [
          /*In future we need wayland also!*/
          "--socket=x11",
+         "--filesystem=host:rw",
          "--share=ipc",
          "--device=dri",
          "--talk-name=org.freedesktop.secrets",
@@ -22,7 +23,7 @@
                 {
                     "type": "archive",
                     "url": "http://archive.ubuntu.com/ubuntu/pool/universe/g/googletest/googletest_1.8.0.orig.tar.gz",
-                    "md5": "16877098823401d1bf2ed7891d7dce36"
+                    "sha256": "58a6f4277ca2bc8565222b3bbd58a177609e9c488e8a72649359ba51450db7d8"
                 }
             ]
         },
@@ -34,7 +35,7 @@
                 {
                     "type": "archive",
                     "url": "https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz2",
-                    "md5": "7fbd1890f571051f2a209681d57d486a"
+                    "sha256": "7f6130bc3cf65f56a618888ce9d5ea704fa10b462be126ad053e80e553d6d8b7"
                 }
 
               ],
@@ -175,7 +176,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jlHertel/adriconf",
-                    "branch": "master"
+                    "tag": "v1.1",
+                    "commit": "da94aadda5f56a17d732f2b450eb8c3e18acd1ea"
                 }
             ]
         }
